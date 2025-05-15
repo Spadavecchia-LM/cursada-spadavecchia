@@ -1,0 +1,24 @@
+¡Ah! Me olvidaba. El arquitecto estaba discutiendo con el SM y la empresa me pidió un recorte de presupuestos. Me ayudaría que me comentaras quién tenía razón en cada caso, sin muchas explicaciones, no tengo mucho tiempo. Me lo podrías adjuntar dentro del zip, en un txt o en un word, si te parece.
+
+8) Si hubiera un error en nuestra base de datos, el arquitecto dice que quiere devolver un 200. En cambio, el SM quería devolver un 400.
+- No entendí a que se referían, pero 400 debe ser más valioso que 200.
+¿Con quién me quedo, arquitecto o SM?
+
+respuesta: Con ninguno de los dos, es mas deberian despedirlos jaja, en este caso lo mejor seria arrojar un 500 que es el codigo que se usa para errores del lado del servidor.
+el 200 se usa cuando la respuesta fue exitosa y el 400 cuando hay un error por parte del cliente por ejemplo: "bad request"
+
+9) El arquitecto quiere usar la última tecnología de ORM y que esté todo en el código para que sea más fácil de mantener, aunque tarde un poco más, "hay fierro" para correrlo. El SM tiene miedo y prefiere que los cálculos de comisiones interbancarias que están en las bases de datos no se toquen.
+- Vaya a saber Dios de qué hablan, pero a mí me conviene que se instale más fierro y vender una actualización del proyecto que no se toca desde el 2005.
+¿Con quién me quedo, arquitecto o SM?
+
+respuesta: Me quedo con el arquitecto ya que mantener desde el codigo es mucho mas simple y puede ser mantenido por personas ajenas al lenguaje que se usa si es que tienen los conocimientos teoricos. Tambien es mejor usar la ultima tecnologia que es lo que los nuevos desarrolladores suelen aprender
+
+10) El arquitecto dijo que para el punto 5, hay que usar GET porque es una búsqueda. El SM prefiere usar POST porque le gustan que las URLs queden cortas.
+- A mí también me gustan las URLs cortas.
+
+¿Con quién me quedo, arquitecto o SM?
+
+respuesta: con el arquitecto. post se usa para enviar datos al servidor y romperia totalmente con el standard.
+
+
+
